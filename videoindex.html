@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Video de formatura</title>
+    <link type="text/css" rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li>
+                <a class="active" href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="./Imagens.html">Imagens</a>
+            </li>
+            <li>
+                <a href="./biografia.html">Biografia</a>
+            </li>
+            <li>
+                <a href="./Armamento.html">Armamentos</a>
+            </li>
+            <li>
+                <a href="./videoindex.html">Video</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div>
+        <video autoplay muted loop id="vRain">
+            <source src="./pasta de video/Dia da Arma de Comunicações - Drone.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="cover">
+        <button id="bntVideo" onclick="funcao()">Pause</button>
+        <a href="./index.html" class="btnVoltar">Home</a>
+    </div>
+
+    <script>
+        var video = document.getElementById("vRain");
+        var btn = document.getElementById("bntVideo")
+        function funcao() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+    </script>
+</body>
+
+</html>

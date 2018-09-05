@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 /*barra de tarefas*/
         ul{
             list-style-type: none;
@@ -25,7 +25,7 @@
             font-size: 30px;
             padding: 14px 16px;
             text-decoration: none;
-            width: 319px;
+            width: 245px;
             font-family: 'Times New Roman', Times, serif;
             color: rgb(255, 251, 0);
             text-shadow: 3px 3px 8px lightgreen;
@@ -42,10 +42,91 @@
         }
         /*barra de tarefas*/
 
+/**********************************
+** Elementos visuais
+***********************************/
+
+        .brand{
+            text-align: left;
+            text-decoration: none;
+        }
+
+        .menu ul li{
+    display: inline ;
+        }
+
+        .menu .brand a{
+            padding-left: 10px;
+            padding-top: 5px;
+            list-style: none;
+            float: left;
+            text-decoration: none;
+            border-bottom : 3px solid red;
+        }
+
+        .menu ul {
+            text-align: right;
+            padding: 0px;
+            margin : 0px;
+            list-style: none;
+        }
+
+
+        #vRain{
+            position: fixed;
+            min-width: 100%;
+            min-height: 100%;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+        }
+        .cover{
+            position :fixed;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;
+        }
+
+        #bntVideo {
+            width: 200px;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background:black;
+            color:green;
+            cursor: pointer;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 32px; height: 55px; width: 135px;
+        }
+
+        #bntVideo:hover,.btnVoltar:hover{
+            background: rgba(0, 145, 0, 0.74);
+            color: yellow;
+        }
+        
+        .btnVoltar{
+            width: 200px;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background:black;
+            color:green;
+            cursor: pointer;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 32px; height: 55px; width: 135px;
+            text-decoration: none;
+        }
+
+        /*video*/
+
         .galery{
             text-align: center;
         }
         /*biografia*/
+
         .font {
             font-size: 20px;
             font-family: 'Times New Roman', Times, serif;
@@ -53,6 +134,7 @@
             padding: 40px 50px;
             text-shadow: 5px 5px 8px black;
         }
+
         /*biografia*/
 
         h1{
@@ -71,11 +153,13 @@
         }
 
         /*plano de fundo*/
+
         body{
             background-image: url('../Imagens/brasao.jpg');
             background-repeat: no-repeat;
             background-position: center;
             background-color: #ffffff;
         }
+        
         /*plano de fundo*/
         
