@@ -1,0 +1,81 @@
+
+/*barra de tarefas*/
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            border: 15px Black;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #bbb; 
+        }
+
+        li:last-child {
+            border-right: none;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            padding: 14px 16px;
+            text-decoration: none;
+            width: 319px;
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(255, 251, 0);
+            text-shadow: 3px 3px 8px lightgreen;
+        }
+
+        li a:hover:not(.active) {
+            background-color: rgba(15, 133, 15, 0.849);
+        }
+
+        .active {
+            background-color: rgba(15, 133, 15, 0.849);
+            color: rgb(255, 251, 0);
+            text-shadow: 3px 3px 8px yellow;
+        }
+        /*barra de tarefas*/
+
+        .galery{
+            text-align: center;
+        }
+        /*biografia*/
+        .font {
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: justify;
+            padding: 40px 50px;
+            text-shadow: 5px 5px 8px black;
+        }
+        /*biografia*/
+
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 30px;
+            text-align: center;
+            text-shadow: 7px 7px 8px darkgreen;
+            color: rgb(255, 251, 0);;
+        }
+
+        figcaption{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 30px;
+            text-align: center;
+            text-shadow: 6px 6px 8px green;
+        }
+
+        /*plano de fundo*/
+        body{
+            background-image: url('../Imagens/brasao.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: #ffffff;
+        }
+        /*plano de fundo*/
+        
