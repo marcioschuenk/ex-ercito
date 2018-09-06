@@ -29,6 +29,7 @@
             font-family: 'Times New Roman', Times, serif;
             color: rgb(255, 251, 0);
             text-shadow: 3px 3px 8px lightgreen;
+            cursor: pointer;
         }
 
         li a:hover:not(.active) {
@@ -84,16 +85,16 @@
         .cover{
             position :fixed;
             bottom: 0;
-            background: rgba(0,0,0,0.5);
+            background: rgba(0,0,0,0.0);
             color: #f1f1f1;
             width: 100%;
             padding: 20px;
         }
 
         #bntVideo {
-            width: 200px;
+            width: 180px;
             font-size: 18px;
-            padding: 10px;
+            padding: 9px;
             border: none;
             background:black;
             color:green;
@@ -110,7 +111,7 @@
         .btnVoltar{
             width: 200px;
             font-size: 18px;
-            padding: 10px;
+            padding: 9px;
             border: none;
             background:black;
             color:green;
@@ -118,6 +119,7 @@
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font-size: 32px; height: 55px; width: 135px;
             text-decoration: none;
+
         }
 
         /*video*/
@@ -150,6 +152,7 @@
             font-size: 30px;
             text-align: center;
             text-shadow: 6px 6px 8px green;
+            cursor: pointer;
         }
 
         /*plano de fundo*/
@@ -160,6 +163,9 @@
             background-position: center;
             background-color: #ffffff;
         }
-        
+        .fundo{
+            background-color: #333;
+            background-size: 100% 100%;
+        }
         /*plano de fundo*/
         
